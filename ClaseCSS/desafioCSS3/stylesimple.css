@@ -1,11 +1,36 @@
 *{
     box-sizing: border-box;
-    background-color: #ffffff;
+   
     
 }
-.article{
-    width: 600px;
+.left{
+    padding-top: 12em;
+    padding-right: 2em;
+    background: #444444;
+    color: #ffffff;
+    text-align: right;
+    margin:  auto;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-family: sans-serif;
+    float: left;
+    height: 45em
+}
+.right{
+    float: right;
+    width: 75%;
     margin: auto;
+    padding-left: 3em;
+    padding-right: 4em;
+}
+.main-title {
+    margin: 0;
+}
+.subtitle{
+    margin: 0;
+    font-weight: 250;
+    color: #868282;
 }
 
 h5{
@@ -16,13 +41,14 @@ h5{
     font-weight: 500;
     letter-spacing: 0.1em;
     width: 600px;
-    margin: auto;
+    margin: 0.6em;
 }
 .profile{
     width: 2.5em;
     height: 2.5em;
     border-radius: 50px;
     float: right;
+
     margin-left: 1em;
 }
 .post-tag{
