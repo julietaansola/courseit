@@ -1,84 +1,76 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    margin: 0 auto;
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    
-}
-.nav-contact{
-    
-    padding: 20px;
+.header {
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #bdb5b5;
     text-align: center;
-    background-color: #ece9e9;
+    height: 20px;
 }
-.nav-contact a {
-text-decoration: none;
-color: #b3b3b3;
-padding: 30px;
+
+.a {
+    text-decoration: none;
+    color: #707070;
 }
-.nav-contact .logo{
-    color: #b3b3b3;
-    font-size: 25px;
+.icon-tw {
+    display: block;
+    text-align: right;
 }
-.nav-contact .tw{
-    float: right;
-    color: #b3b3b3;
-    font-size: 25px;x
+.container {
+    display: flex;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: 13px;
+    color: #eeeeee;
+    text-transform: uppercase;
+}
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    color: #eeeeee;
+}
+.text {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #eeeeee;
+    margin-bottom: 150px;
+  
+}
+.read {
+    font-family: 'Times New Roman', Times, serif;
+    color: #eeeeee;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: auto;
     
 }
-.contenedor{
-    display: flex;
-    height: 700px;
+.div {
+    padding: 15px;
+    width: 200px;
 }
-/* .column{
-    display: block;
-    height: 580px;
-    width: 16.6%;
-} */
-.contenedor .sass-box {
-    padding: 25px;
-    background-color:#4CB4E8 ;
-    color: #ffffff;
-    width: 16.66%;
+.art1 {
+background-color:  #0082c8 ;
 }
-.contenedor .css-box {
-    padding: 25px;
-    background-color: #736373 ;
-    color: #ffffff;
-    width: 16.66%;
+.art2 {
+background-color:#73616f ;
 }
-.contenedor .welcome-box {
-    padding: 25px;
-    background-color: #EB685B;
-    color: #ffffff;
-    width: 16.66%;
+.art3 {
+background-color:  #e8856c;
 }
-.contenedor .css3d-box {
-    padding: 25px;
-    background-color: #056CB0;
-    color: #ffffff;
-    width: 16.66%;
+.art4 {
+background-color: #16528e;
 }
-.contenedor .tutorial-box {
-    padding: 25px;
-    background-color: #DE352D;
-    color: #ffffff;
-    width: 16.66%;
+.art5 {
+background-color: #e54b4b;
 }
-.contenedor .digital-box {
-    padding: 25px;
-    background-color: #BFD4D5;
-    color: #ffffff;
-    width: 16.66%;
-}
-.contenedor .sass-box .text, .contenedor .css-box .text, .contenedor .welcome-box .text, .contenedor .css3d-box .text, .contenedor .tutorial-box .text, .contenedor .digital-box .text  {
-    margin-bottom: 200px;
-}
-.contenedor .sass-box a, .contenedor .css-box a, .contenedor .welcome-box a, .contenedor .css3d-box a, .contenedor .tutorial-box a, .contenedor .digital-box a{
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-}
-.contenedor .sass-box .eye, .contenedor .css-box .eye, .contenedor .welcome-box .eye, .contenedor .css3d-box .eye, .contenedor .tutorial-box .eye, .contenedor .digital-box .eye{
-  padding-right: 5px;
+.art6 {
+background-color:#a2c5bf ;
 }
